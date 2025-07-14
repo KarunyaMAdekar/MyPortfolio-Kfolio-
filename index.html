@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> My Portfolio </title>
+    <link rel="icon" type="image/x-icon" href="../imageicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                <div class="logo">
+                    <span> KFOLIO. </span>
+                </div>
+                <ul>
+                    <li> <a href="#header"> HOME </a> </li>
+                    <li> <a href="#profile"> PROFILE </a> </li>
+                    <li> <a href="#projects"> PROJECTS </a> </li>
+                    <li> <a href="#skills"> SKILLS </a> </li>
+                    <li> <a href="#contact"> CONTACT </a> </li>
+                </ul>
+            </nav>
+        <div class="header-text">
+            <h1> Hi, I'm KARUNYA M ADEKAR <br> from Bengaluru, India</h1>
+        </div>
+        </div>
+    </div>
+<!-----------------------------------------profile---------------------------------------------------------->
+    <div id="profile"> 
+        <div class="container">
+            <div class="row">
+                 <div class="profile-col-1">
+                <img src="../profilepic.png">
+            </div>
+            <div class="profile-col-2">
+                <h1 class="sub-title"> About Me </h1>
+                <br>
+                <p> I am a motivated and organized BE student driven to achieve results and contribute to organizational growth. 
+                    I am an excellent team worker, keen and willing to learn and develop new skills.
+                    Dedicated and enthusiastic graduate seeking an entry-level position where I can apply my skills and knowledge to contribute to the success of the organization while gaining valuable experience. 
+                    Passionate about leveraging coding skills to build impactful applications. </p>
+
+                <div class="tab-titles"> 
+                    <p class="tab-links active-link" onclick="opentab('EDUCATION')"> EDUCATION </p>
+                    <p class="tab-links" onclick="opentab('CERTIFICATIONS')"> CERTIFICATIONS </p>
+                    <p class="tab-links" onclick="opentab('LANGUAGES')"> LANGUAGES </p>
+                </div>
+                <div class="tab-contents active-tab" id="EDUCATION">
+                    <ul>
+                        <li><span> MTECH [ 2025 - PRESENT]</span><br> DATA SCIENCE <br> JSS ACADEMY OF TECHNICAL EDUCATION</li>
+                        <li><span> BE [2021-25]</span> <br> COMPUTER SCIENCE ENGINEERING <br> RAJARAJESWARI COLLEGE OF ENGINEERING <br> [CGPA- 8.8]</li>
+                        <li><span> II PUC [2020-21]</span> <br> MAHESH PU COLLEGE <br> [95%] </li>
+                        <li><span> CLASS 10 [2018-19]</span> <br> VSS INTERNATIONAL PUBLIC SCHOOL  <br> [CBSE BOARD - 87.4%] </li>
+                    </ul>
+                </div>
+                 <div class="tab-contents" id="CERTIFICATIONS">
+                    <ul>
+                        <li><span>Infosys | Springboard </span><br> Course Completion Certificate on Basics of Python </li>
+                        <li><span>Tech Fortune </span> <br> [Certificate of Completing a Workshop on Java and Data Structures </li>
+                        <li><span>Enthu Technology Solutions  </span> <br> Certificate of Completing Internship Training on IIoT Using LoRaWAN Technology</li>
+                        <li><span>Google For Developers </span> <br> Completion Badge of Introduction To SQL </li>
+                        <li><span> VTU [Courses Completion for BE Honors] </span></li>
+                    </ul>
+                </div>
+                 <div class="tab-contents" id="LANGUAGES">
+                    <ul>
+                        <li><span>ENGLISH</span> </li>
+                        <li><span>KANNADA</span> </li>
+                        <li><span>HINDI</span> </li>
+                        <li><span>MARATHI</span> </li>
+                        
+                    </ul>
+                </div>
+            </div>
+
+            </div>
+            
+        </div>
+    </div>
+    <!------------------------------------projects--------------------------------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title"> My Projects </h1>
+            <div class="box-container">
+            <div class="box">
+                <h3>Heart Disease Prediction using Machine Learning Algorithms </h3>
+                <div class="more-content">
+            <p>Implemented using Python, Pandas, Scikit-learn</p>
+            <p> In this project, we mainly focus on the prediction of heart disease. 
+                A set of heart disease data containing various parameters of the tests conducted along with their results are fed to various ML algorithms like SVM-PCA, SVM, Random Forest for training. 
+                Then the pre-trained models are used for the prediction of new input data of new patients.</p>
+                </div>
+            <a href="javascript:void(0)" class="view-more" onclick="toggleMore(this)">View More</a>
+                
+            </div>
+            <div class="box">
+                <h3>Real time Chat Application </h3>
+                <div class="more-content">
+                <p>Implemented using HTML, CSS, JavaScript, Bootstrap, Tailwind (for styling)</p>
+                <p> This project aims to create a secure and efficient chat application that enables users to communicate instantly and schedule messages for future delivery. 
+                    The scheduled messaging feature allows users to set reminders, send announcements, and automate communication workflows, improving productivity and convenience. </p>
+                </div>
+            <a href="javascript:void(0)" class="view-more" onclick="toggleMore(this)">View More</a>
+                
+            </div>
+            <div class="box">
+                <h3> My Portfolio </h3>
+                <div class="more-content">
+                    <p> Implemented using HTML, CSS, JavaScript </p>
+                    <p> A clean, responsive portfolio website showcasing my projects, skills, and contact details. 
+                        Built using HTML, CSS, and JavaScript with interactive features.</p>
+                </div>
+                <a href="javascript:void(0)" class="view-more" onclick="toggleMore(this)">View More</a>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------skills------------------------------------->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title"> My Skills </h1>
+                <h3 class="skills-subtitle1" >Technical Skills</h3>
+                <div class="skill"><span>Python</span><span class="stars">★★★★★</span></div>
+                <div class="skill"><span>HTML</span><span class="stars">★★★★★</span></div>
+                <div class="skill"><span>CSS</span><span class="stars">★★★★☆</span></div>
+                <div class="skill"><span>MySQL</span><span class="stars">★★★★☆</span></div>
+                <div class="skill"><span>C and JAVA</span><span class="stars">★★★☆☆</span></div>
+                <div class="skill"><span>Microsoft office</span><span class="stars">★★★☆☆</span></div>
+                
+                <h3 class="skills-subtitle2">Soft Skills</h3>
+                <div class="skill"><span>Communication</span><span class="stars">★★★★☆</span></div>
+                <div class="skill"><span>Problem Solving</span><span class="stars">★★★★☆</span></div>
+                <div class="skill"><span>Leadership and Teamwork</span><span class="stars">★★★★☆</span></div>
+                <div class="skill"><span>Time Management</span><span class="stars">★★★★☆</span></div>
+                <div class="skill"><span>Creativity</span><span class="stars">★★★★☆</span></div>
+                <div class="skill"><span>Adaptability</span><span class="stars">★★★★☆</span></div>
+                <div class="skill"><span>Conflict reasoning</span><span class="stars">★★★★☆</span></div>
+                </div>
+
+        </div>
+    </div>
+    <!----------------------------------contact section-------------------------------------->
+    <div id="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        
+        <div class="contact-info">
+        <p><strong>Email:</strong> karunyamadekar@gmail.com</p>
+        <p><strong>Phone:</strong> +91 8971845205</p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/karunya-m-adekar-037146309?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BuCRJG6BLRbyoQ2UR6YSDKA%3D%3D" target="_blank">linkedin.com/in/karunya-m-adekar</a></p>
+        </div>
+        <a href="../KARUNYA M ADEKAR RESUME.pdf" download class="contact-btn"> DOWNLOAD CV</a>
+        <a href="https://forms.gle/5RF9csPpuvrcFKQF7" target="_blank">
+        <button class="contact-btn">Feedback or Suggestions form</button>
+        </a>
+    </div>
+    </div>
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            }    
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+    <script>
+        function toggleMore(link) {
+            const content = link.previousElementSibling;
+            const isVisible = content.style.display === "block";
+            content.style.display = isVisible ? "none" : "block";
+            link.textContent = isVisible ? "View More" : "View Less";
+        }
+    </script>
+
+</body>
+</html> 
