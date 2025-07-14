@@ -251,6 +251,9 @@ nav ul li a:hover::after{
     flex-direction: column;
     align-items: center;
   }
+    #header {
+    padding-bottom: 2px; 
+  }
 
   .profile-col-1,
   .profile-col-2 {
